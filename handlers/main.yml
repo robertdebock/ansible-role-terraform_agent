@@ -1,6 +1,2 @@
 ---
 # handlers file for terraform_agent
-
-# - name: Reload systemd
-#   ansible.builtin.systemd:
-#     daemon_reload: yes
