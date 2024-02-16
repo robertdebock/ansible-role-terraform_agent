@@ -41,8 +41,8 @@
     mode: 0644
     owner: root
     group: root
-  notify:
-    - Reload systemd
+  # notify:
+  #   - Reload systemd
 
 - name: Start the Terraform Agent
   ansible.builtin.service:
