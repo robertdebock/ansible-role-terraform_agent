@@ -45,7 +45,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # defaults file for terraform_agent
 
 # The version of the terraform_agent to install.
-terraform_agent_version: 1.14.4
+terraform_agent_version: "1.14.4"
 
 # Where to install the terraform_agent.
 terraform_agent_installation_path: /opt/tfc_agent
