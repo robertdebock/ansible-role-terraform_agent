@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install and configure Terraform Agent (for TFC or TFE) on your system.
+  homepage: https://robertdebock.nl/
+  topics: terraformagent, terraformenterprise, terraformcloud, terraform, tfe, tfc, application, cloud, infrastructure, linux, tools, ansible, molecule, tox, playbook
