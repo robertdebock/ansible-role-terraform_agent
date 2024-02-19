@@ -55,7 +55,7 @@ terraform_agent_installation_path: /opt/tfc_agent
 terraform_agent_terraform_enterprise_address: "https://app.terraform.io"
 
 # The Agent Token generated on Terraform Enterprise or Terraform Cloud.
-# When not token ("") is defined, the agent will not be started.
+# When no token (`""``) is defined, the agent will not be started.
 terraform_agent_token: ""
 
 # The name of the Agent as it will be registered as in Terraform Enterprise or Terraform Cloud.
