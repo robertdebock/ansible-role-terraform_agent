@@ -8,4 +8,3 @@
   when:
     - terraform_agent_token is defined
     - terraform_agent_token != ""
-
