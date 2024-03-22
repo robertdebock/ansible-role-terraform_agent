@@ -25,6 +25,8 @@
     src: "https://releases.hashicorp.com/tfc-agent/{{ terraform_agent_version }}/tfc-agent_{{ terraform_agent_version }}_linux_amd64.zip"
     dest: "{{ terraform_agent_installation_path }}"
     remote_src: true
+  notify:
+    - Restart the Terraform Agent
 
 - name: Place environment variable file
   ansible.builtin.template:
@@ -33,6 +35,8 @@
     mode: 0644
     owner: root
     group: root
+  notify:
+    - Restart the Terraform Agent
 
 - name: Place a service file for Terraform Agent
   ansible.builtin.template:
@@ -41,6 +45,8 @@
     mode: 0644
     owner: root
     group: root
+  notify:
+    - Restart the Terraform Agent
 
 - name: Start the Terraform Agent
   ansible.builtin.service:
