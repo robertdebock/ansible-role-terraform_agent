@@ -2,3 +2,4 @@
 roles:
   - name: robertdebock.bootstrap
   - name: robertdebock.ca_certificates
+  - name: community.general
